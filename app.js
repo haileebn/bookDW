@@ -8,9 +8,9 @@ app.get("/", function(req, res){
 	// res.send("<font color = red>hello hai nguyen</font>");
 	res.sendFile(__dirname + "/index.html");
 });
-app.get("/infobook", function(req, res){
+app.get("/thuatngu", function(req, res){
 	// res.send("<font color = red>hello hai nguyen</font>");
-	res.sendFile(__dirname + "/infobook.html");
+	res.sendFile(__dirname + "/thuatngu.html");
 });
 
 
