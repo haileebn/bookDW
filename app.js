@@ -1,8 +1,7 @@
 var express = require("express");
 var app = express();
-// var server = require("http").createServer(app);
-// server.listen(8080);
-const port = process.env.PORT || 3000;
+
+const port = process.env.PORT || 2410;
 
 app.get("/", function(req, res){
 	// res.send("<font color = red>hello hai nguyen</font>");
@@ -15,7 +14,7 @@ app.get("/thuatngu", function(req, res){
 
 
 app.listen(port, () => {
-	// console.log("ser on: " + port);
+	console.log("ser on: " + port);
 });
 
 // app.get("/gioithieu.aspx", function(req, res){
